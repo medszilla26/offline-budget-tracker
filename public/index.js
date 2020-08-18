@@ -62,7 +62,7 @@ function populateChart() {
     myChart.destroy();
   }
 
-  let ctx = document.getElementsById("myChart").getContext("2d");
+  let ctx = document.getElementById("myChart").getContext("2d");
 
   myChart = new Chart(ctx, {
     type: "line",
