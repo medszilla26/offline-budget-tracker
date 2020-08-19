@@ -58,5 +58,3 @@ self.addEventListener("fetch", (event) => {
     );
   }
 });
-
-console.log("it works!");
