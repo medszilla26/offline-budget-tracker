@@ -1,12 +1,12 @@
 const FILES_TO_CACHE = [
   "/",
   "/index.html",
-  "/styles.css",
-  "/db.js",
-  "/index.js",
-  "/manifest.json",
-  "/dist/app.bundle.js",
-  "/dist/db.bundle.js",
+  "styles.css",
+  "db.js",
+  "index.js",
+  "manifest.json",
+  "dist/app.bundle.js",
+  "dist/db.bundle.js",
   "/icons/icon-192x192.png",
   "/icons/icon-512x512.png",
 ];
@@ -71,3 +71,5 @@ self.addEventListener("fetch", function (evt) {
     return;
   }
 });
+
+//pablo
